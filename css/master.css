@@ -12,14 +12,11 @@
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
-  body {
-  background-color: white;
-  color: black;
-  /* set the background color here */
-    /* set the text color to black here */
-    font-family: Arial, Helvetica, sans-serif;/* set the font here */
-    text-align: center; /* set the text alignment here */
-   }
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
 
   footer {
     margin-top: 2rem;
